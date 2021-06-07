@@ -13,4 +13,9 @@ public class Main {
         num++;
                 return num;
     }
+    public static int decreaseOne(){
+        num--;
+        num--;
+            return num;
+    }
 }

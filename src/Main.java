@@ -1,6 +1,6 @@
 public class Main {
 
-     static int num =0;
+     static int num =5;
     public static void main(String[] args) {
 
     addOne();
@@ -9,6 +9,7 @@ public class Main {
 
     }
     public static int addOne (){
+        num++;
         num++;
                 return num;
     }

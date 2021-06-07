@@ -7,10 +7,15 @@ public class Main {
 
         System.out.println(num);
 
+        numX2();
+        System.out.println(num);
     }
     public static int addOne (){
         num++;
         num++;
                 return num;
+    }
+    public static int numX2(){
+        return (num * 2);
     }
 }

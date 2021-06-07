@@ -4,8 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
     addOne();
-
         System.out.println(num);
+        decreaseOne();
+        System.out.println(num);
+
 
     }
     public static int addOne (){
